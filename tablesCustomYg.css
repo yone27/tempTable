@@ -1,0 +1,118 @@
+/* Quitando estilos innecesarios */
+table.dataTable.customTableYg thead th, 
+table.dataTable.customTableYg thead td {
+	border: none;
+}
+
+* {
+	margin: 0;
+	padding: 0;	
+}
+table.customTableYg {
+	width: 100% !important;
+	box-shadow: 0 0 15PX 3px #c3dbe2;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border: none;
+}
+
+
+/* Custom a las clases de jquery datatables */
+.dataTables_wrapper {
+	border: none;
+    margin: 0;
+}
+
+/* Filters */
+.dataTables_wrapper .dataTables_filter, 
+.dataTables_wrapper .dataTables_length {
+	margin: 0 0 20px;
+}
+
+.dataTables_wrapper .dataTables_length select {
+	margin: 0;
+    padding: 5px 10px;
+    height: 30px;
+    font-size: 14px;
+    border-radius: 3px;
+}
+.dataTables_wrapper .dataTables_filter input {
+	border: 1px solid #999;
+    padding: 5px 10px;
+    height: 30px;
+}
+
+/* Table */
+.dataTables_wrapper .dataTables_paginate,
+.dataTables_wrapper .dataTables_info{
+	margin: 20px 0 0;
+	padding: 0;
+}
+
+table.dataTable.customTableYg thead tr {
+	background: #1B559B;
+    color: white;
+}
+table.dataTable.customTableYg tbody td.customTableYg__info {
+	display: flex;
+    align-items: center;
+    min-height: 100px;
+}
+table.dataTable.customTableYg tbody td.customTableYg__info img {
+	max-width: 60px;
+}
+table.dataTable.customTableYg tbody td.customTableYg__info .customTableYg__info__2 {
+	display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    justify-content: center;
+}
+
+table.dataTable.customTableYg tbody td.customTableYg__info .customTableYg__schedule {
+	font-weight: bold;
+    margin: 0;
+    font-size: 1.2em;
+}
+table.dataTable.customTableYg tbody td.customTableYg__info .customTableYg__destination {
+	margin: 0;
+    font-size: 1em;
+    font-weight: normal;
+    color: #999;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 390px;
+}
+table.dataTable.customTableYg tbody .customTableYg__price {
+	margin: 0 0 5px;
+    font-size: 1.5em;
+}
+table.dataTable.customTableYg tbody .customTableYg__price  small{
+display: block;
+color: #999;
+}
+
+.customTableYg__type,
+.customTableYg__time {
+	font-weight: bold;
+}
+/* Helpers */
+.text-center {
+	text-align: center;
+}
+
+/* Butotns */
+.btnCustom {
+	display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+.btnCustom-table{
+	color: #ffffff;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+}
